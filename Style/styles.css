@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -25,7 +25,8 @@ body {
 /* Middle column */
 .column.middle2 {
     width: 33%;
-} 
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -66,7 +67,8 @@ body {
     letter-spacing: 0.2em;
 }
 
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -112,8 +114,7 @@ html, body {
 
 }
 
-.section1Text
-{
+.section1Text {
     display: flex;
     position: relative;
     padding-left: 10%;
@@ -153,7 +154,7 @@ html, body {
     width: 100%;
     background: #D9D9D9;
     opacity: 0.2;
-} 
+}
 
 .section3Bg {
     position: relative;
@@ -161,7 +162,7 @@ html, body {
     height: 36rem;
     background: #ffffff;
     width: 100%;
-} 
+}
 
 /* Final Video Styles */
 .flexbox-container {
@@ -314,10 +315,10 @@ html {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
-  }
-  
-  /* Style the header links */
-  .header a {
+}
+
+/* Style the header links */
+.header a {
     float: left;
     color: black;
     text-align: center;
@@ -326,48 +327,62 @@ html {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
-  }
-  
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
     font-size: 25px;
     font-weight: bold;
-  }
-  
-  /* Change the background color on mouse-over */
-  .header a:hover {
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
     background-color: #ddd;
     color: black;
-  }
-  
-  /* Style the active/current link*/
-  .header a.active {
+}
+
+/* Style the active/current link*/
+.header a.active {
     background-color: dodgerblue;
     color: white;
-  }
-  
-  /* Float the link section to the right */
-  .header-right {
+}
+
+/* Float the link section to the right */
+.header-right {
     float: right;
-  }
-  
-  .columns {
+}
+
+.columns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-  }
-  
-  .column {
+}
+
+.column {
     flex: 33.33%;
+    padding-left: 10px;
     float: left;
-  }
+}
+
+.columns_footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column_footer {
+    flex: 15%;
+    margin-left: 5%;
+    float: left;
+}
 
 
-  /* Section 3 */
+/* Section 3 */
 
-  .Frame18 {
-        /* Frame 18 */
+.Frame18 {
+    /* Frame 18 */
 
 
     box-sizing: border-box;
@@ -389,15 +404,15 @@ html {
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
 
-  .Rectangle6 {
+.Rectangle6 {
     /* Rectangle 6 */
     width: 350px;
     height: 12px;
     background: #FFBA08;
     border-radius: 12px 12px 0px 0px;
-    margin-bottom: 200px; 
+    margin-bottom: 250px;
     /* Important  to keep the bottom margin */
 
     /* Inside auto layout */
@@ -405,10 +420,10 @@ html {
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
 
-  .Frame17 {
-        /* Frame 17 */
+.Frame17 {
+    /* Frame 17 */
 
 
     /* Auto layout */
@@ -428,10 +443,10 @@ html {
     flex: none;
     order: 1;
     flex-grow: 0;
-  }
+}
 
-  .Frame7 {
-        /* Frame 7 */
+.Frame7 {
+    /* Frame 7 */
 
 
     /* Auto layout */
@@ -450,197 +465,197 @@ html {
 
     flex: none;
     order: 0;
-flex-grow: 0;
-  }
+    flex-grow: 0;
+}
 
-  .Frame5 {
+.Frame5 {
     /* Frame 5 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 16px;
-gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 16px;
+    gap: 8px;
 
-width: 286px;
-height: 85px;
+    width: 286px;
+    height: 85px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
-  #Title2 {
+#Title2 {
     /* Title 2 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
 
-width: 84px;
-height: 39px;
-  }
+    width: 84px;
+    height: 39px;
+}
 
-  .Title2Inside {
-    
-/* Inside auto layout */
+.Title2Inside {
 
-flex: none;
-order: 0;
-flex-grow: 0;
+    /* Inside auto layout */
 
-width: 84px;
-height: 39px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
+    width: 84px;
+    height: 39px;
 
-text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
 
-color: #222222;
-  }
+    text-align: center;
 
-  .paragraphSmall {
+    color: #222222;
+}
+
+.paragraphSmall {
     /* Paragraph small */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
 
-width: 286px;
-height: 34px;
+    width: 286px;
+    height: 34px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-  }
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 
-  .TextParagrpahSmall {
+.TextParagrpahSmall {
     /* Paragraph small */
 
 
-width: 81px;
-height: 34px;
+    width: 150px;
+    height: 34px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
 
-/* Paragraph */
+    /* Paragraph */
 
-color: #575757;
+    color: #575757;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
-  .Frame6 {
+.Frame6 {
     /* Frame 6 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
 
-width: 286px;
-height: 98px;
+    width: 286px;
+    height: 98px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 1;
-flex-grow: 0;
-  }
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
 
-  .Title3 {
+.Title3 {
     /* Title 3 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
 
-width: 52px;
-height: 48px;
+    width: 52px;
+    height: 48px;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
-  .Title3Inside {
+.Title3Inside {
     /* Title 3 */
 
 
-width: 52px;
-height: 48px;
+    width: 52px;
+    height: 48px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
 
-color: #222222;
+    color: #222222;
 
 
-/* Inside auto layout */
+    /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
-  .ButtonText {
-        /* Button Text */
+.ButtonText {
+    /* Button Text */
     box-sizing: border-box;
 
     /* Auto layout */
@@ -666,9 +681,9 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
-  }
+}
 
-  .ButtonTextInside {
+.ButtonTextInside {
     /* Button Text */
     width: 100px;
     height: 22px;
@@ -692,191 +707,363 @@ flex-grow: 0;
     flex: none;
     order: 0;
     flex-grow: 0;
-  }
+}
 
-  .Frame8 {
+.Frame8 {
     /* Frame 8 */
 
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 32px 0px;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 10px;
 
-width: 286px;
-height: 65px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-  }
-
-  .Rectangle5 {
-/* Rectangle 5 */
+    width: 286px;
+    height: 65px;
 
 
-width: 286px;
-margin-left: 32px;
-height: 1px;
+    /* Inside auto layout */
 
-/* Border */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
 
-background: #D2D2D2;
+.Rectangle5 {
+    /* Rectangle 5 */
 
-/* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
+    width: 286px;
+    margin-left: 32px;
+    height: 1px;
 
-  .Frame11 {
+    /* Border */
+
+    background: #D2D2D2;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Frame11 {
     /* Frame 11 */
 
 
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 286px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.Frame9 {
+    /* Frame 9 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 16px;
+    gap: 16px;
+
+    width: 286px;
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.done {
+    /* done */
+    position: absolute;
+    left: 10px;
+    width: 16px;
+    height: 16px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.vector {
+    /* Vector */
+    position: absolute;
+    left: 12.5%;
+    right: 10.94%;
+    top: 18.75%;
+    bottom: 24.99%;
+}
+
+.Rectangle4 {
+    /* Rectangle 4 */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.Paragraph {
+    /* Paragraph */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 254px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.TextParagraph {
+    /* Paragraph */
+
+
+    width: 174px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #575757;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.ButtonText2 {
+    /* Button Text */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 10px;
+
+    width: 286px;
+    height: 86px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.ButtonTextInside {
+    /* Button Text */
+    width: 150px;
+    height: 22px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #222222;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Frame19 {
+    /* Frame 19 */
+
+
+box-sizing: border-box;
+
 /* Auto layout */
 
 display: flex;
 flex-direction: column;
-justify-content: center;
-align-items: center;
+align-items: flex-start;
 padding: 0px;
 
-width: 286px;
-height: 304px;
+width: 350px;
+height: 748px;
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 3;
-flex-grow: 0;
-  }
-
-  .Frame9 {
-    /* Frame 9 */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px 0px 16px;
-gap: 16px;
-
-width: 286px;
-height: 38px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
-
-  .done {
-    /* done */
-
-
-width: 16px;
-height: 16px;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-  }
-
-  .vector {
-    /* Vector */
-
-
-position: absolute;
-left: 12.5%;
-right: 10.94%;
-top: 18.75%;
-bottom: 24.99%;
-
-background: #212121;
-  }
-
-  .Rectangle4 {
-    /* Rectangle 4 */
-
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-  }
-
-  .Paragraph {
-    /* Paragraph */
-
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 10px;
-
-width: 254px;
-height: 22px;
-
+border: 1px solid #000000;
+border-radius: 12px;
 
 /* Inside auto layout */
 
 flex: none;
 order: 1;
 flex-grow: 0;
-  }
+}
 
-  .TextParagraph {
-    /* Paragraph */
+.Rectangle6_2 {
+    /* Rectangle 6 */
 
 
-width: 174px;
-height: 22px;
+width: 350px;
+height: 12px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-text-align: center;
-
-color: #575757;
-
+background: #101010;
+border-radius: 12px 12px 0px 0px;
 
 /* Inside auto layout */
 
 flex: none;
 order: 0;
 flex-grow: 0;
+}
 
-  }
+.Frame20 {
+    /* Frame 20 */
 
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 350px;
+height: 748px;
+
+/* business */
+
+border: 1px solid #1EC58D;
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.Rectangle6_3 {
+    /* Rectangle 6 */
+
+
+width: 350px;
+height: 12px;
+
+/* business */
+
+background: #1EC58D;
+border-radius: 12px 12px 0px 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.Line8 {
+    /* Line 8 */
+
+
+position: absolute;
+width: 100%;
+height: 0px;
+
+border: 1px solid #CCC0C0;
+}
+
+.TermsUsage {
+    /* Terms of Usage | Privacy Policy */
+
+
+position: absolute;
+width: 228px;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #0D0900;
+}
+
+.CopyRight {
+    /* © 2020 Nirdesh Pvt. Ltd. All Rights Reserved */
+position: absolute;
+height: 18px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+padding-left: 80%;
+color: #0D0900;
+}
 /* At frame 6 in basic */
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
-    .column.side, .column.middle {
+
+    .column.side,
+    .column.middle {
         width: 100%;
     }
 
