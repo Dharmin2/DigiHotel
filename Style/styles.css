@@ -500,7 +500,7 @@ html {
 
 
     /* Auto layout */
-    margin-top:50px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -797,6 +797,7 @@ html {
     flex-grow: 0;
 }
 
+
 .Frame9 {
     /* Frame 9 */
 
@@ -900,6 +901,7 @@ html {
     flex-grow: 0;
 
 }
+
 
 .ButtonText2 {
     /* Button Text */
@@ -1344,7 +1346,7 @@ html {
 
 
     /* Auto layout */
-    margin-top:120px;
+    margin-top: 510px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1363,6 +1365,41 @@ html {
     flex-grow: 0;
 }
 
+.Frame11_2 {
+    /* Frame 11 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: 286px;
+    height: 304px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.done_2 {
+    /* done */
+    position: relative;
+    left: 30px;
+    width: 16px;
+    height: 16px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
 
 /* At frame 6 in basic */
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
