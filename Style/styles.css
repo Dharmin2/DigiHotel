@@ -1401,6 +1401,267 @@ html {
     flex-grow: 0;
 }
 
+.Frame17_3 {
+    /* Frame 17 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+
+    width: 350px;
+    height: 220px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.Frame7_3 {
+    /* Frame 7 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px 24px;
+
+    width: 286px;
+    height: 239px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Frame5_3 {
+    /* Frame 5 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 16px;
+    gap: 8px;
+
+    width: 286px;
+    height: 85px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Title2_3 {
+    /* Title 2 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 140px;
+    height: 39px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Title2Inside_3 {
+    /* Title 2 */
+
+
+    width: 140px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #222222;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Paragraph_3 {
+    /* Paragraph */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 286px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ParagraphInside_3 {
+    /* Paragraph */
+
+
+    width: 85px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #575757;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Title3_3 {
+    /* Title 3 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 51px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.Title3Inside_3 {
+    /* Title 3 */
+
+
+    width: 51px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 230px;
+    color: #222222;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ParagraphSmall_3 {
+    /* Paragraph small */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 286px;
+    height: 34px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.PragraphSmallInside_3 {
+    /* Paragraph small */
+
+
+    width: 229px;
+    height: 34px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    /* Paragraph */
+
+    color: #575757;
+}
+
 /* At frame 6 in basic */
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
