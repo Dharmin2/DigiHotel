@@ -1804,6 +1804,44 @@ Login Page */
 
 }
 
+.SignUpPageTerms {
+    /* By signing up you agree to the terms & conditions */
+    width: 282px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.SignUpPageSignUpButton {
+    /* Rectangle 3 */
+
+
+    box-sizing: border-box;
+    width: 400px;
+    height: 63px;
+    background: #704232;
+    border: 1px solid #000000;
+    box-shadow: 1px 7px 4px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.SignUpPageBottomLine {
+    /* Line 1 */
+width: 498px;
+height: 0px;
+
+border: 1px solid rgba(177, 168, 168, 0.75);
+}
+
 /* At frame 6 in basic */
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
