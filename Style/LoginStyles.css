@@ -51,7 +51,7 @@ body {
 }
 
 .right {
-	padding-left: 5rem;
+	padding-left: 3rem;
 	text-align: left;
 }
 
@@ -107,7 +107,7 @@ textarea {
 }
 
 .Line {
-	width: 418px;
+	width: 250px;
 	height: 0px;
 	margin-left: 3rem;
 	border: 1px solid #000000;
