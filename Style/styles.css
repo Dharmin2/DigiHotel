@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+/* Background Styles */
+html {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     position: relative;
     height: 100%;
@@ -18,19 +32,6 @@ body {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.column.side2 {
-    width: 33%;
-}
-
-.columnSection1Side.side {
-    width: 25%;
-}
-
-/* Middle column */
-.column.middle2 {
-    width: 33%;
-}
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -45,38 +46,6 @@ body {
     text-align: center;
 }
 
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
-
-.rounded-lg {
-    border-radius: 1rem !important;
-}
-
-.text-small {
-    font-size: 0.9rem !important;
-}
-
-.custom-separator {
-    width: 5rem;
-    height: 6px;
-    border-radius: 1rem;
-}
-
-.text-uppercase {
-    letter-spacing: 0.2em;
-}
-
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 #dhImage {
     position: relative;
     margin-left: 50px;
@@ -86,218 +55,22 @@ body {
     margin-left: 10%;
 }
 
-#LoginButton {
-    position: relative;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: 60%;
-    width: 80px;
-    color: #000000;
-}
-
-#RegisterButton {
-    position: relative;
-    width: 80px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
-}
-
-#pizzaImage {
-    position: relative;
-    width: 40%;
-    background: url(image-LP-1.png);
-    transform: rotate(-10deg);
-    height: 800px;
-
-}
-
-.section1Text {
-    display: flex;
-    position: relative;
-    padding-left: 10%;
-}
-
-.section1TextRight {
-    position: relative;
-}
-
-.section1CheckMarkRight {
-    position: relative;
-}
-
-.section1CheckMarkText {
-    position: relative;
-}
-
-#DownloadAppText {
-    position: relative;
-}
-
-#GoogleButton {
-    position: relative;
-    border: none;
-}
-
-#AppleButton {
-    position: relative;
-    border: none;
-}
-
-/* Section2 */
-.section2Bg {
-    position: relative;
-    margin-top: 5%;
-    height: 600px;
+#Pizza {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
-    background: #D9D9D9;
-    opacity: 0.2;
+    max-width: 609px;
+    min-width: 300px;
 }
 
-.section3Bg {
-    position: relative;
-    margin-top: 20%;
-    height: 36rem;
-    background: #ffffff;
-    width: 100%;
-}
-
-/* Final Video Styles */
-.flexbox-container {
-    display: flex;
-    justify-content: centers;
-    align-items: center;
-}
-
-.flexbox-item {
-    width: 200px;
-    margin: 10px;
-}
-
-.flexbox-item-1 {
-    flex: 1 0 0;
-    min-height: 25%;
-    flex-basis: 0;
-    order: 3;
-}
-
-.flexbox-item-2 {
-    min-height: 25%;
-    flex-grow: 1;
-    flex-basis: 0;
-    order: 1;
-}
-
-.flexbox-item-3 {
-    min-height: 50%;
-    flex-grow: 1;
-    flex-basis: 0;
-    order: 2;
-}
-
-
-
-
-/* Background Styles */
-html {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.flexbox-item-1 {
-    justify-content: center;
-}
-
-.flexbox-item-2 {
-    justify-content: center;
-}
-
-.flexbox-item-3 {
-    justify-content: center;
-}
-
-.flexbox-container {
-    position: relative;
-}
-
-.flexbox-container::before {
-    position: absolute;
-    top: -40px;
-    font-size: 2em;
-}
-
-.axis {
-    position: absolute;
-}
-
-.cross-axis {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 5px;
-    height: 100%;
-}
-
-.main-axis {
-    top: 50%;
-    transform: translateY(-50%);
-    height: 5px;
-    width: 100%;
-}
-
-.axis::after {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    font-size: 2em;
-}
-
-.main-axis::after {
-    position: absolute;
-}
-
-.cross-axis::after {
-    white-space: nowrap;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-}
-
-.flexbox-item {
-    position: relative;
-    width: 200px;
-    height: fit-content;
-    margin: 10px;
-    display: flex;
-}
-
-.flexbox-item::before {
-    position: absolute;
-    font-size: 25px;
-    top: 10px;
-    left: 15px;
-}
-
-.flexbox-item::after {
-    position: absolute;
-    font-size: 25px;
-    top: 10px;
-    right: 15px;
-}
-
+/* Headers used to create a responsive header*/
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
 }
 
-/* Style the header links */
 .header a {
     float: left;
     color: black;
@@ -332,11 +105,13 @@ html {
     float: right;
 }
 
+/* Columns Used for section different sections*/
 .columns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 7rem;
 }
 
 .column {
@@ -368,8 +143,37 @@ html {
     width: 25%;
 }
 
+.columnSection1Side.side {
+    width: 25%;
+}
+
+.columns_Section1 {
+    display: flex;
+    margin-top: 7rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column_Section1 {
+    flex: 25%;
+    margin-left: 5%;
+    float: left;
+    text-align: right;
+}
+
+.column.side2 {
+    width: 33%;
+}
+
+
+.column.middle2 {
+    width: 33%;
+}
+
 .columns_footer {
     display: flex;
+    margin-top: 7rem;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -381,8 +185,20 @@ html {
     float: left;
 }
 
+.footerImageIcons {
+    width: 6rem;
+    height: 2rem;
+}
 
-/* Section 3 */
+.Section2ImageIcons {
+    height: .8rem;
+    width: .8rem;
+}
+
+.Section2TitleLabel {
+    font-size: 1rem;
+}
+/* Section 3 Code is from Figma changed slightly*/
 
 .Frame18 {
     /* Frame 18 */
@@ -1056,19 +872,6 @@ html {
     line-height: 18px;
     padding-left: 80%;
     color: #0D0900;
-}
-
-.columns_Section1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column_Section1 {
-    flex: 25%;
-    margin-left: 5%;
-    float: left;
 }
 
 .contact-Us {
@@ -1812,10 +1615,10 @@ Login Page */
 
 .SignUpPageBottomLine {
     /* Line 1 */
-width: 498px;
-height: 0px;
+    width: 498px;
+    height: 0px;
 
-border: 1px solid rgba(177, 168, 168, 0.75);
+    border: 1px solid rgba(177, 168, 168, 0.75);
 }
 
 /* At frame 6 in basic */
