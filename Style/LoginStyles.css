@@ -18,10 +18,18 @@ html {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #2196F3;
 }
 
 .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    height:100vh;
+
+}
+
+.grid-item-2 {
+    text-align: left;
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     font-size: 30px;
@@ -35,7 +43,7 @@ html {
 .BF {
     /* BF */
 
-
+    text-align: left;
     width: 60px;
     height: 58px;
     margin-bottom: 3rem;
@@ -51,7 +59,6 @@ html {
     /* Inside auto layout */
 
     flex: none;
-    order: 0;
     flex-grow: 0;
 }
 
@@ -74,8 +81,8 @@ html {
     /* Inside auto layout */
 
     flex: none;
-    order: 1;
     flex-grow: 0;
+    text-align: left;
 }
 
 .ImageIcons {
@@ -85,9 +92,11 @@ html {
 
 .Line {
     /* Line 2 */
-    width: 250px;
-    margin-left: 1rem;
-    border: 1px solid #000000;
+    /* Line 2 */
+    width: 418px;
+    height: 0px;
+    margin-left: 2rem;
+    border: 1px solid #000000
 }
 
 .Input {
@@ -111,4 +120,56 @@ html {
     line-height: 19px;
     margin-left: 140px;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.LoginButton {
+    /* Rectangle 3 */
+
+
+    box-sizing: border-box;
+    width: 493px;
+    height: 63px;
+    background: #704232;
+    border: 1px solid #000000;
+    box-shadow: 1px 7px 4px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.LoginButton {
+    /* Login */
+    width: 280px;
+    height: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 2rem;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.Line2 {
+    /* Line 1 */
+    margin-top: 2rem;
+    width: 400px;
+    height: 0px;
+
+    border: 1px solid rgba(177, 168, 168, 0.75);
+}
+
+.Container {
+    margin-left: 10%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: left;
+}
+
+.line-break {
+    width: 100%;
 }
