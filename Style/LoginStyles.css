@@ -5,6 +5,7 @@
     font-family: "Inter";
 
 }
+
 /* Grid to split form and image */
 .grid-container {
     display: grid;
@@ -12,7 +13,8 @@
 }
 
 .FoodImage {
-    height: 100vh;
+    height: 100%;
+    width: 50vw;
 }
 
 /* Flexbox for form */
@@ -27,7 +29,8 @@
 
     width: 60px;
     height: 58px;
-
+    margin-top: 10%;
+    margin-bottom: 3%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -50,7 +53,7 @@
 
     width: 154px;
     height: 48px;
-
+    margin-bottom: 5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -67,11 +70,48 @@
     flex-grow: 0;
 }
 
-@media (max-width: 600px) {
-    .flexbox-item-1 {}
+.LoginImageIcon {
+    width: 1rem;
+    height: 1rem;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
 }
 
-
-@media (max-width: 600px) {
-    .flexbox-item-2 {}
+div.cont {
+    line-height: 40px;
+    order: 2;
 }
+
+.cont img,
+.cont input {
+    vertical-align: bottom;
+}
+
+.Input {
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+.Line {
+    /* Line 2 */
+    width: 418px;
+    height: 0px;
+    margin-left: 3.4rem;
+    border: 1px solid #000000;
+}
+
+/* 500% zoom and 400% zoom share a layout */
+@media only screen and (max-width: 600px) {}
+
+/* 300% zoom */
+@media only screen and (min-width: 600px) {}
+
+/* 250% 200% */
+@media only screen and (min-width: 768px) {}
+
+/* 175% */
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
