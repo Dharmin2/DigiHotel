@@ -1,3 +1,15 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -92,6 +104,8 @@ div.cont {
     border-width: 0px;
     border: none;
     outline: none;
+    font-style: "Inter";
+    font-size: 20px;
 }
 
 .Line {
@@ -100,6 +114,85 @@ div.cont {
     height: 0px;
     margin-left: 3.4rem;
     border: 1px solid #000000;
+}
+
+.ForgotPassword {
+    /* Forget Password? */
+    margin-top: 5%;
+    margin-left: 350px;
+    width: 134px;
+    height: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.LoginBox {
+    margin-top: 5%;
+    box-sizing: border-box;
+    width: 493px;
+    height: 63px;
+
+    background: #704232;
+    border: 1px solid #000000;
+    box-shadow: 1px 7px 4px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.LoginBoxText {
+
+    margin-top: 5%;
+    width: 87px;
+    height: 39px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.Line2 {
+    margin-top: 5%;
+    height: 0px;
+    width: 498px;
+    margin-bottom: 5%;
+    border: 1px solid rgba(177, 168, 168, 0.75);
+}
+
+.Line2Box {
+    /* Rectangle 4 */
+
+
+    box-sizing: border-box;
+    width: 34px;
+    height: 34px;
+    padding-top: -5%;
+    background: #FFFFFF;
+    border: 0.5px solid #B1A8A8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.socialMediaIcons {
+    width: 3rem;
+    height: 3rem;
+}
+
+.SocialMediaIconsSpacing {
+    margin-left: 160px;
+}
+
+.SocialMediaIconsSpacingBetween {
+    margin-left: 20px;
 }
 
 /* 500% zoom and 400% zoom share a layout */
