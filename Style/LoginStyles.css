@@ -35,6 +35,11 @@ html {
     flex-direction: column;
 }
 
+.flexboxRow-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .BF {
     /* BF */
 
@@ -78,29 +83,18 @@ html {
     /* Inside auto layout */
 
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
 }
 
 .LoginImageIcon {
     width: 3rem;
     height: 3rem;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }
 
 .PasswordImageIcon {
     width: 3rem;
     height: 3rem;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-}
-
-div.cont {
-    line-height: 40px;
-    order: 2;
 }
 
 .cont img,
@@ -190,7 +184,15 @@ div.cont {
     text-align: center;
 }
 
-.socialMediaIcons {
+.socialMediaIcon1 {
+    width: 3rem;
+    height: 3rem;
+}
+.socialMediaIcon2 {
+    width: 3rem;
+    height: 3rem;
+}
+.socialMediaIcon3 {
     width: 3rem;
     height: 3rem;
 }
@@ -246,6 +248,17 @@ div.cont {
     .Line,.Line2 {
         margin-left: 1.3rem;
         width: 180px;
+    }
+    .SocialMediaIconsSpacing, .SocialMediaIconsSpacingBetween {
+        margin-left:80px;
+    }
+    .flexboxRow-container {
+        flex-direction: column;
+    }
+    .socialMediaIcon1 {
+        
+    }
+    .socialMediaIcon2 {
     }
 }
 
