@@ -83,8 +83,16 @@ html {
 }
 
 .LoginImageIcon {
-    width: 1rem;
-    height: 1rem;
+    width: 3rem;
+    height: 3rem;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.PasswordImageIcon {
+    width: 3rem;
+    height: 3rem;
     flex: none;
     order: 2;
     flex-grow: 0;
@@ -114,6 +122,14 @@ div.cont {
     height: 0px;
     margin-left: 3.4rem;
     border: 1px solid #000000;
+}
+
+.Line2 {
+    margin-top: 5%;
+    height: 0px;
+    width: 498px;
+    margin-bottom: 5%;
+    border: 1px solid rgba(177, 168, 168, 0.75);
 }
 
 .ForgotPassword {
@@ -160,14 +176,6 @@ div.cont {
 
 }
 
-.Line2 {
-    margin-top: 5%;
-    height: 0px;
-    width: 498px;
-    margin-bottom: 5%;
-    border: 1px solid rgba(177, 168, 168, 0.75);
-}
-
 .Line2Box {
     /* Rectangle 4 */
 
@@ -195,8 +203,51 @@ div.cont {
     margin-left: 20px;
 }
 
+.NeedAnAccount {
+    /* Need an Account? */
+    margin-top: 5%;
+    margin-left: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.SignUp {
+    /* SignUp */
+    margin-left: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+
+    color: #42063F;
+
+}
+
+.SignLoginDiv {
+    margin-top: 5%;
+}
+
 /* 500% zoom and 400% zoom share a layout */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .BF,.Login,.Input,.NeedAnAccount,.SignUp,.ForgotPassword {
+        font-size: 12px;
+    }
+    .LoginImageIcon,.PasswordImageIcon {
+        width: 1rem;
+        height: 1rem;
+    }
+    .Line,.Line2 {
+        margin-left: 1.3rem;
+        width: 180px;
+    }
+}
 
 /* 300% zoom */
 @media only screen and (min-width: 600px) {}
