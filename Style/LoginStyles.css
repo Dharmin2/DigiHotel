@@ -245,20 +245,39 @@ html {
         width: 1rem;
         height: 1rem;
     }
-    .Line,.Line2 {
+    .Line {
         margin-left: 1.3rem;
         width: 180px;
     }
     .SocialMediaIconsSpacing, .SocialMediaIconsSpacingBetween {
-        margin-left:80px;
+        margin-left:60px;
     }
     .flexboxRow-container {
         flex-direction: column;
     }
-    .socialMediaIcon1 {
-        
+    .BF {
+        margin-bottom: 1%;
     }
-    .socialMediaIcon2 {
+    .LoginBox {
+        width: 164px;
+        height: 21px;
+    }
+    .LoginBoxText {
+        width: 29px;
+        height: 13px;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .Line2 {
+        width: 166px;
+    }
+
+    .ForgotPassword {
+        margin-left: 0px;
+    }
+
+    .NeedAnAccount, .SignUp {
+        margin-left: 0px;
     }
 }
 
