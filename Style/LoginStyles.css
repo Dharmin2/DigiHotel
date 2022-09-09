@@ -188,10 +188,12 @@ html {
     width: 3rem;
     height: 3rem;
 }
+
 .socialMediaIcon2 {
     width: 3rem;
     height: 3rem;
 }
+
 .socialMediaIcon3 {
     width: 3rem;
     height: 3rem;
@@ -238,36 +240,52 @@ html {
 
 /* 500% zoom and 400% zoom share a layout */
 @media only screen and (max-width: 600px) {
-    .BF,.Login,.Input,.NeedAnAccount,.SignUp,.ForgotPassword {
+
+    .BF,
+    .Login,
+    .Input,
+    .NeedAnAccount,
+    .SignUp,
+    .ForgotPassword {
         font-size: 12px;
     }
-    .LoginImageIcon,.PasswordImageIcon {
+
+    .LoginImageIcon,
+    .PasswordImageIcon {
         width: 1rem;
         height: 1rem;
     }
+
     .Line {
         margin-left: 1.3rem;
         width: 180px;
     }
-    .SocialMediaIconsSpacing, .SocialMediaIconsSpacingBetween {
-        margin-left:60px;
+
+    .SocialMediaIconsSpacing,
+    .SocialMediaIconsSpacingBetween {
+        margin-left: 60px;
     }
+
     .flexboxRow-container {
         flex-direction: column;
     }
+
     .BF {
         margin-bottom: 1%;
     }
+
     .LoginBox {
         width: 164px;
         height: 21px;
     }
+
     .LoginBoxText {
         width: 29px;
         height: 13px;
         font-size: 11px;
         line-height: 13px;
     }
+
     .Line2 {
         width: 166px;
     }
@@ -276,13 +294,72 @@ html {
         margin-left: 0px;
     }
 
-    .NeedAnAccount, .SignUp {
+    .NeedAnAccount,
+    .SignUp {
         margin-left: 0px;
     }
 }
 
 /* 300% zoom */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+    .BF,
+    .Login,
+    .Input,
+    .NeedAnAccount,
+    .SignUp,
+    .ForgotPassword {
+        font-size: 14px;
+    }
+
+    .LoginImageIcon,
+    .PasswordImageIcon {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .Line {
+        margin-left: 1.3rem;
+        width: 250px;
+    }
+
+    .SocialMediaIconsSpacing,
+    .SocialMediaIconsSpacingBetween {
+        margin-left: 30px;
+    }
+
+    .BF {
+        margin-bottom: 1%;
+    }
+
+    .LoginBox {
+        width: 264px;
+        height: 31px;
+    }
+
+    .LoginBoxText {
+        width: 29px;
+        height: 13px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .Line2 {
+        width: 266px;
+    }
+
+    .ForgotPassword {
+        margin-left: 0px;
+    }
+
+    .NeedAnAccount {
+        margin-left: 0px;
+    }
+
+    .SignUp {
+        margin-left: 60px;
+    }
+}
 
 /* 250% 200% */
 @media only screen and (min-width: 768px) {}
